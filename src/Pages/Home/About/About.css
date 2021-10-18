@@ -1,0 +1,35 @@
+.about-title{
+color:rgb(19, 113, 150);
+
+}
+
+.about-facilities{
+  background-color: #E2F1F1;
+  padding: 14px 12px;
+  
+
+}
+
+.about_us i {
+    
+    background-color: #092efd;
+    font-size: 24px;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 50%;
+  }
+  
+  a {
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .showmore_btn {
+    background-color: #092efd;
+    color: white;
+    border-radius: 25%;
+    border: none;
+    text-align: center;
+  }
+  

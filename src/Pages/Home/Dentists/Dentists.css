@@ -1,0 +1,26 @@
+.dentists-menu{
+background-color: rgb(221, 242, 250);
+
+}
+.dentist-title {
+    font-size: 38px;
+    font-weight: bold;
+    color: rgb(19, 113, 150);
+}
+
+.dentist-info{
+color:rgb(35, 124, 160);
+
+}
+
+
+.icons{
+color:rgba(49, 49, 126, 0.918);
+
+}
+
+.icons:hover{
+cursor: pointer;
+transition: 0.5s;
+
+}
