@@ -104,7 +104,7 @@ const Register = () => {
                 // Signed in 
                 const user = userCredential.user;
                 console.log(user);
-                setError('');
+                setError('successfully registered');
                 verifyEmail();
                 setUserName();
 
