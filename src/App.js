@@ -21,9 +21,11 @@ function App() {
             <Route exact path="/">
               <Home></Home>
             </Route>
+
             <Route path="/home">
               <Home></Home>
             </Route>
+
             <Route path="/login">
               <Login></Login>
             </Route>
@@ -32,12 +34,17 @@ function App() {
               <Register></Register>
             </Route>
 
+
+            {/* PrivateRoute for showing service details  */}
+
             <PrivateRoute path="/serviceDetails/:serviceId">
               <ServiceDetails></ServiceDetails>
             </PrivateRoute>
+
             <Route path="*">
               <NotFound></NotFound>
             </Route>
+
           </Switch>
 
         </Router>

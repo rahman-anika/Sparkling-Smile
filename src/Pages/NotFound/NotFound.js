@@ -8,8 +8,12 @@ const NotFound = () => {
             <img style={{ width: '100%' }} src={notfound} alt="" />
             <br />
             <br />
+
+            {/* go to homepage starts */}
             <Link to="/"><Button>Go Back</Button>
             </Link>
+            {/* go to homepage ends  */}
+
             <br /><br />
         </div>
     );

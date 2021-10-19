@@ -5,10 +5,18 @@ import useAuth from './../../../hooks/useAuth';
 
 const PrivateRoute = ({ children, ...rest }) => {
     const { user, isLoading } = useAuth();
+
+    // if loading is true then spinner shows 
+
     if (isLoading) {
         return <Spinner animation="border" variant="danger" />
     }
+
+
     return (
+
+        // if privateroute is used then first goes to login page starts
+
         <Route
             {...rest}
             render={({ location }) => user.email ? children : <Redirect

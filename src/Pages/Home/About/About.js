@@ -3,16 +3,30 @@ import './About.css'
 
 const About = () => {
     return (
+
+        // about section starts 
+
         <div id="about" className="container w-100 m-auto p-5">
+
+            {/* Why choose section starts  */}
+
             <div className="col-md-12 ">
                 <h3 className="about-title">Why Choose Us</h3>
                 <small className="about-title">
                     From the minute you walk into our practice, you’ll see why we stand out – not only do we have the expertise and range of services to ensure your dental needs are met, our patients also frequently comment on what a lovely atmosphere we provide, offering a refreshingly easy experience compared to other dental practices.
                 </small>
             </div>
-            <div className="row">
-                <div className="col-md-3 g-4">
 
+            {/* why choose us section ends  */}
+
+            {/* four facilities section starts  */}
+
+            <div className="row">
+
+
+
+                {/* certified dentist starts  */}
+                <div className="col-md-3 g-4">
                     <div className="d-flex mt-3 about-facilities">
                         <div className="about_us">
                             <i class="fas fa-user-md"></i>
@@ -24,8 +38,13 @@ const About = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col-md-3 g-4">
+                {/* certified dentist ends  */}
 
+
+
+
+                {/* Quality Care starts  */}
+                <div className="col-md-3 g-4">
                     <div className="d-flex mt-3 about-facilities">
                         <div className="about_us">
                             <i class="fas fa-procedures"></i>
@@ -37,10 +56,14 @@ const About = () => {
                             <a href="#">Show more</a> <button className="showmore_btn"><i class="fas fa-arrow-right"></i></button>
                         </div>
                     </div>
-
                 </div>
-                <div className="col-md-3 g-4">
+                {/* Quality Care ends  */}
 
+
+
+
+                {/* New Technology starts  */}
+                <div className="col-md-3 g-4">
                     <div className="d-flex mt-3 about-facilities">
                         <div className="about_us">
                             <i class="fas fa-cog"></i>
@@ -51,11 +74,13 @@ const About = () => {
                             <a href="#">Show more </a><button className="showmore_btn"><i class="fas fa-arrow-right"></i></button>
                         </div>
                     </div>
-
                 </div>
+                {/* New Technology ends  */}
 
+
+
+                {/* Accept Insurance starts  */}
                 <div className="col-md-3 g-4">
-
                     <div className="d-flex mt-3 about-facilities">
                         <div className="about_us">
                             <i class="fas fa-dollar-sign"></i>
@@ -66,11 +91,16 @@ const About = () => {
                             <a href="#">Show more </a><button className="showmore_btn"><i class="fas fa-arrow-right"></i></button>
                         </div>
                     </div>
-
                 </div>
+                {/* Accept Insurance ends  */}
 
             </div>
+
+            {/* four facilities section ends  */}
+
         </div>
+
+        // about section ends 
     );
 };
 

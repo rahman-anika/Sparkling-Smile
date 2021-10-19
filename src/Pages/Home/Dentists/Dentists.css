@@ -1,19 +1,57 @@
+/* dentist left side menu style starts  */
 .dentists-menu{
-background-color: rgb(221, 242, 250);
-
-}
+    background-color: rgb(221, 242, 250);
+    
+    }
+    /* dentist left side menu style ends  */
+    
+    
+/* dentist title style starts  */
 .dentist-title {
     font-size: 38px;
     font-weight: bold;
     color: rgb(19, 113, 150);
 }
-
+/* dentist title style ends  */
+    
+    
+/* dentist info style starts  */
 .dentist-info{
-color:rgb(35, 124, 160);
+    color:rgb(35, 124, 160);
 
 }
+/* dentist info style ends  */
+
+/* dentist card style starts */
+.dentist{
+    background-color: rgb(226, 241, 241);
+    border-radius:20px ;
+  
+}
+/* dentist card style ends */
+
+/* card animation style starts */
+.cart {
+    transition: 0.75s;
+    border-radius: 12px;
+  }
+.cart:hover {
+    box-shadow: 2px 5px 10px gray;
+}
+/* card animation style ends */
 
 
+/* dentist image style starts  */
+.dentist img{
+    width: 100%;
+    height: 200px;
+    border-radius: 70%;
+}
+/* dentist image style ends  */
+
+
+
+/* contact icon style starts */
 .icons{
 color:rgba(49, 49, 126, 0.918);
 
@@ -24,3 +62,7 @@ cursor: pointer;
 transition: 0.5s;
 
 }
+/* contact icon style ends */
+
+
+

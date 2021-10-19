@@ -3,9 +3,13 @@ import './Footer.css';
 
 const Footer = () => {
     return (
+
+        // footer section starts 
         <div className="footer mt-3">
             <div className="container text-start py-3">
                 <div className="row ">
+
+                    {/* website name and address starts */}
                     <div className="col-md-5">
                         <div className="col-md-5">
 
@@ -20,9 +24,13 @@ const Footer = () => {
 
                         </div>
                     </div>
-                    <div className="col-md-7">
+                    {/* website name and address ends */}
 
+
+                    {/* footer link starts */}
+                    <div className="col-md-7">
                         <div className="row">
+
                             <div className="col-md-6">
                                 <ul>
                                     <li><a href="#">About Us</a></li>
@@ -31,6 +39,7 @@ const Footer = () => {
                                     <li><a href="#">Gallery</a></li>
                                 </ul>
                             </div>
+
                             <div className="col-md-6">
                                 <ul>
                                     <li><a href="#">Get help</a></li>
@@ -41,9 +50,12 @@ const Footer = () => {
                             </div>
 
                         </div>
-
                     </div>
+                    {/* footer link ends */}
+
                 </div>
+
+                {/* copyright starts  */}
                 <div className="container text-start py-3">
                     <div className="row">
                         <div className="col-md-4">
@@ -57,8 +69,12 @@ const Footer = () => {
                     </div>
 
                 </div>
+                {/* copyright ends  */}
+
             </div>
         </div>
+        // footer section ends 
+
     );
 };
 

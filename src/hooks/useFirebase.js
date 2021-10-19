@@ -18,6 +18,7 @@ const useFirebase = () => {
     const googleProvider = new GoogleAuthProvider();
 
 
+    // for sign in using google account starts 
     const signInUsingGoogle = () => {
 
         return signInWithPopup(auth, googleProvider);
@@ -35,7 +36,7 @@ const useFirebase = () => {
 
     };
 
-
+    // for sign in using google account ends
 
 
     // observe user state change
@@ -52,6 +53,9 @@ const useFirebase = () => {
         return () => unsubscribed;
     }, [])
 
+
+    // for sign out starts 
+
     const logOut = () => {
         setIsLoading(true);
         signOut(auth)
@@ -59,6 +63,7 @@ const useFirebase = () => {
             .finally(() => setIsLoading(false));
     }
 
+    // for sign out ends 
 
 
     return {
