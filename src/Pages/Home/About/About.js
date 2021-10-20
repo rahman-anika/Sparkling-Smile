@@ -26,7 +26,7 @@ const About = () => {
 
 
                 {/* certified dentist starts  */}
-                <div className="col-md-3 g-4">
+                <div className="col-lg-6 g-4">
                     <div className="d-flex mt-3 about-facilities">
                         <div className="about_us">
                             <i class="fas fa-user-md"></i>
@@ -44,7 +44,7 @@ const About = () => {
 
 
                 {/* Quality Care starts  */}
-                <div className="col-md-3 g-4">
+                <div className="col-lg-6 g-4">
                     <div className="d-flex mt-3 about-facilities">
                         <div className="about_us">
                             <i class="fas fa-procedures"></i>
@@ -63,7 +63,7 @@ const About = () => {
 
 
                 {/* New Technology starts  */}
-                <div className="col-md-3 g-4">
+                <div className="col-lg-6 g-4">
                     <div className="d-flex mt-3 about-facilities">
                         <div className="about_us">
                             <i class="fas fa-cog"></i>
@@ -80,14 +80,14 @@ const About = () => {
 
 
                 {/* Accept Insurance starts  */}
-                <div className="col-md-3 g-4">
+                <div className="col-lg-6 g-4">
                     <div className="d-flex mt-3 about-facilities">
                         <div className="about_us">
                             <i class="fas fa-dollar-sign"></i>
                         </div>
                         <div className="text-start">
                             <h5 className="about-title">Accept Insurance</h5>
-                            <small>We accept various types of insurance to provide different facilities to our patients so that each patient can enjoy  service.</small><br />
+                            <small>We accept various types of insurance to provide different facilities to our patients so that each patient can enjoy service.</small><br />
                             <a href="#">Show more </a><button className="showmore_btn"><i class="fas fa-arrow-right"></i></button>
                         </div>
                     </div>
